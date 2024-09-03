@@ -1,0 +1,22 @@
+Data augmentation - when training data is limited. (involves modifications and artificilly syntesize more data) to boost performance on the ML / DL by reducing overfitting. 
+a. image cropping (cropping to  box)
+b. flipping (image horizontally)
+c. chaning contrast
+d. brightness
+e. saturation
+torchvision.transformers has it.
+during training - transformations can be randomised (data augmentation).
+create a pipeline of these transformations. These random transformations can also be sent to pipeline. 
+The data augmentation needs to be only done on the training dataset and not on valid/test.
+if training looks like thi ">>> transform_train = transforms.Compose([
+... transforms.RandomCrop([178, 178]),
+... transforms.RandomHorizontalFlip(),
+... transforms.Resize([64, 64]),
+... transforms.ToTensor(),
+... ]"
+valid dataset
+>>> transform = transforms.Compose([
+... transforms.CenterCrop([178, 178]),
+... transforms.Resize([64, 64]),
+... transforms.ToTensor(),
+... ]
