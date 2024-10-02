@@ -18,6 +18,7 @@ We explored the dataset to understand its composition. Here are some key distrib
     Anatomical Site Distribution: Location of melanoma on different parts of the body .
 
     Gender Distribution: Melanoma appears more frequently in males 👨 than females 👩.
+![Screenshot from 2024-10-02 18-20-10](https://github.com/user-attachments/assets/0bfc7b63-6790-43ce-b84e-348dc4c8755a)
 
 🔍 Image Augmentation
 
