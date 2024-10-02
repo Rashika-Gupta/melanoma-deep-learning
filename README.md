@@ -21,9 +21,12 @@ We explored the dataset to understand its composition. Here are some key distrib
 
 🔍 Image Augmentation
 
-To make the model more robust, we applied various augmentation techniques (e.g., rotation, flipping, scaling). Below is a comparison of images before and after augmentation 🎨:
+To make the model more robust, we applied various augmentation techniques (e.g., rotation, flipping, scaling). 
+![Screenshot from 2024-10-02 18-13-09](https://github.com/user-attachments/assets/07151072-fb3f-4c49-b963-214d1560286e)
 
-    Original Image:![Screenshot from 2024-10-02 18-13-09](https://github.com/user-attachments/assets/eca363d7-c2fa-43c2-88c8-1aa8e0b59a5c)
+Below is a comparison of images before and after augmentation 🎨:
+
+    Original Image:
 
 
     Augmented Image:
