@@ -1,11 +1,11 @@
 This repository contains the code and resources for predicting skin cancer (melanoma) using computer vision models. We use the dataset from the SIIM-ISIC Melanoma Classification Challenge, leveraging deep learning to classify dermoscopic images into malignant and benign categories.
 🎯 Project Overview
 
-Melanoma is the deadliest type of skin cancer, and early detection is key 🔑. In this project, we used a Convolutional Neural Network (CNN) to detect melanoma.
+Melanoma is the deadliest type of skin cancer, and early detection is key 🔑. In this project, we used a **Convolutional Neural Network (CNN)** to detect melanoma.
 
-    Model Used: SEResNext50_32x4d 
+    **Model Used: SEResNext50_32x4d 
     Performance Metric: ROC-AUC 📈
-    Results: Achieved a ROC-AUC of 0.987 after training for 50 epochs 🏅
+    Results: Achieved a ROC-AUC of 0.987 after training for 50 epochs **🏅
 
 📊 Feature Distributions
 
@@ -23,7 +23,8 @@ We explored the dataset to understand its composition. Here are some key distrib
 
 To make the model more robust, we applied various augmentation techniques (e.g., rotation, flipping, scaling). Below is a comparison of images before and after augmentation 🎨:
 
-    Original Image:
+    Original Image:![Screenshot from 2024-10-02 18-13-09](https://github.com/user-attachments/assets/eca363d7-c2fa-43c2-88c8-1aa8e0b59a5c)
+
 
     Augmented Image:
 
