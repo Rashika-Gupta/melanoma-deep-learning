@@ -25,11 +25,8 @@ To make the model more robust, we applied various augmentation techniques (e.g.,
 ![Screenshot from 2024-10-02 18-13-09](https://github.com/user-attachments/assets/07151072-fb3f-4c49-b963-214d1560286e)
 
 Below is a comparison of images before and after augmentation 🎨:
+![Screenshot from 2024-10-02 18-16-38](https://github.com/user-attachments/assets/7eacfe6b-8073-4a59-984e-753c7114317d)
 
-    Original Image:
-
-
-    Augmented Image:
 
 🧑‍💻 Model Architecture
 
